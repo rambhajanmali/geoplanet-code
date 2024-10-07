@@ -1,0 +1,22 @@
+/* .no-scroll {
+    overflow: hidden;
+} */
+/* .big-container {
+    display: flex;
+    height: 100vh;
+} */
+
+.slide-item {
+   min-width: 100vw;
+    flex-shrink: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.about1 {
+    text-align: left;
+}
+.btn {
+    margin-top: 20px;
+}

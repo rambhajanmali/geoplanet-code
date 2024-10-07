@@ -1,0 +1,574 @@
+@media screen and (max-width: 1024px) {
+  .header-left {
+    gap: 0;
+  }
+
+  #header {
+    height: 18%;
+  }
+
+  .header-left h3 {
+    font-size: 1.2rem;
+  }
+
+  .about1 {
+    margin-top: 250px;
+  }
+
+  .header-right ul {
+    padding: 0 15px;
+  }
+
+  .count {
+    height: 100px;
+  }
+
+  .right img {
+    margin-left: 50px;
+    width: 180px;
+    height: 130px;
+  }
+
+  .footer-content {
+    margin-bottom: 0;
+  }
+
+  .social-media {
+    margin-top: 0;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+    margin-right: 20px;
+  }
+
+  #header {
+    display: flex;
+  }
+
+  .india-flag {
+    display: none;
+  }
+
+  .header-right {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(201, 199, 199);
+    flex-direction: column;
+    top: 100%;
+    left: -100%;
+    padding-block: 50px;
+    height: 500px;
+    margin: auto;
+    backdrop-filter: blur(10px);
+    align-items: start;
+  }
+
+  .nav-list {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .nav-list li {
+    padding: 10px 20px;
+    /* border: 2px solid black;
+  border-radius: 0 10px 10px 0; */
+  }
+
+  .header-right ul {
+    padding: 0;
+  }
+
+  .nav-bar {
+    padding: 10px;
+  }
+
+  .main {
+    /* height: auto; */
+    height: 140vh;
+
+  }
+
+  .earth-container {
+    height: 100%;
+    width: 50vw;
+    top: 60px;
+    right: -20px;
+  }
+
+  .about1 {
+    padding: 100px 30px;
+  }
+
+  .about1 h1 {
+    font-size: 43px;
+  }
+
+  .about1 h3 {
+    font-size: 25px;
+    padding: 15px 7PX 7PX;
+  }
+
+  .about1 p {
+    font-size: 1rem;
+    padding: 15px 10PX 10PX;
+  }
+
+  .btn {
+    padding: 10px;
+  }
+
+  .btn a {
+    font-size: 1rem;
+  }
+
+  .main img {
+    top: 0;
+  }
+
+  .company_logo_images {
+    height: 170px;
+  }
+
+  .trees-count {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .geotree {
+    width: 95%;
+    margin: 12px;
+    height: auto;
+
+  }
+
+  .para {
+    width: 95%;
+    margin: 12px;
+  }
+
+  .geotree h2 {
+    font-size: 2rem;
+  }
+
+  .svg {
+    display: none;
+  }
+
+  .dashboard-btn {
+    margin: 20px;
+  }
+
+  .right {
+    width: 93%;
+    margin: 5px auto;
+    height: auto;
+  }
+
+  .right-in button {
+    font-size: 1.1rem;
+  }
+
+  .right img {
+    width: 60%;
+    margin: 10px;
+    height: auto;
+    margin-left: 10px;
+  }
+
+  .section2-below {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .section2-below-l {
+    width: 100%;
+  }
+
+  .section2-below-r {
+    width: 100%;
+    /* height: 500px; */
+    height: auto;
+    margin-top: 30px;
+    padding-left: 15px;
+  }
+
+  .section2-below p {
+    padding: 15px;
+  }
+
+  .section2-below-r button {
+    width: 90%;
+  }
+
+  .tree-details-below {
+    margin: auto;
+    padding: 0 60px;
+  }
+
+  .services {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+  }
+
+  .service1 {
+    width: 90%;
+    margin: 15px auto;
+
+  }
+
+
+  .section4 {
+    margin-top: 20px;
+  }
+
+  .team {
+    height: 470px;
+  }
+
+  .leader {
+    margin-top: 10px;
+  }
+
+  .any-question {
+    width: 100%;
+  }
+
+  .qa {
+    width: 90%;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: auto;
+  }
+
+
+  .messages {
+    width: 90%;
+  }
+
+  .address {
+    margin: 5px;
+  }
+
+  .logo-details {
+    text-align: start;
+    width: 80%;
+  }
+
+  .social-media {
+    border-radius: 15px;
+  }
+
+  .bottom-details {
+    flex-wrap: wrap;
+    height: 11vh;
+  }
+
+  .bottom-left {
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px;
+    padding: 0 10px 5px;
+    width: 100%;
+  }
+
+  .bottom-right {
+    margin: 10px auto 0;
+  }
+
+  .bottom-right a {
+    font-size: 1rem;
+  }
+
+  .footer-video {
+    display: none;
+  }
+
+  .footer-img {
+    display: block;
+    width: 100%;
+    height: 1000px;
+  }
+
+  .content {
+    height: 100%;
+  }
+
+  .inner-content {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .footer-service {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .earth-container {
+      top:-15vw;
+      right: 0;
+      width: 20px;
+      
+        height: 20px;
+        /* width: 50vw; */
+       top: -2vh;
+        /* right: -600px; */
+        position: absolute;
+        z-index: -1;
+        overflow: hidden;
+      }
+      .about1 p {
+        font-size: 1rem;
+        padding: 15px 10PX 10PX;
+        color: white;
+    }
+    .main {
+      /* height: 900px; */
+      height: 115vh;
+      width: 100%;
+      background-color: #121424;
+      display: flex;
+    }
+}
+
+
+@media screen and (max-width:426px) {
+  #header {
+    height: 11%;
+  }
+
+  .header-left {
+    gap: 14px;
+  }
+
+  .header-left h3 {
+    font-size: 0.9rem;
+  }
+
+  .header-left img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+
+  .about1 {
+    padding: 30px 20px;
+  }
+
+  .main {
+    background-color: rgb(3, 3, 46);
+    height: 100vh;
+  }
+
+  .earth-container {
+    height: 100%;
+    width: 100vw;
+    top: 60px;
+    z-index: -1;
+    overflow: none;
+  }
+
+  .about1 h1 {
+    font-size: 40px;
+    /* margin-top: 19px; */
+  }
+
+  .about1 h3 {
+    font-size: 20px;
+    padding: 10px 5PX 5PX;
+  }
+
+  .about1 p {
+    font-size: 12px;
+    padding: 10px 10PX 10PX;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+  }
+
+  .main img {
+    display: none;
+  }
+
+  .btn a {
+    font-size: 0.8rem;
+  }
+
+  .company_logo_images {
+    height: 150px;
+  }
+
+
+  .geotree p {
+    font-size: 1rem;
+  }
+
+  .left .para {
+    font-size: 1.3rem;
+  }
+
+  .geotree button {
+    font-size: 1rem;
+  }
+
+  .geotree h2 {
+    font-size: 1.5rem;
+  }
+
+  .dashboard-btn {
+    font-size: 1rem;
+    height: auto;
+    padding: 10px;
+  }
+
+  .right-in {
+    font-size: 1.2rem;
+  }
+
+  .right-in button {
+    font-size: 0.7rem;
+  }
+
+  .count {
+    height: 80px;
+    font-size: 1rem;
+    padding-top: 20px;
+  }
+
+  .right img {
+    width: 40%;
+  }
+
+  .section2-below-l {
+    width: 100%;
+    height: auto;
+  }
+
+  .tree-details {
+    width: 60%;
+    height: 149px;
+  }
+
+  .tree-details-below i {
+    margin: 25px 4px;
+    font-size: 8.5px;
+    padding-right: 5px;
+  }
+  .div p{
+    font-size: 0.75rem ;
+  }
+  .tree1 {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+  }
+
+  .section2-below-r button {
+    font-size: 1rem;
+  }
+
+  .section4 h2 {
+    font-size: 1.5rem;
+    padding: 10px 70px;
+  }
+
+.team{
+  height: 300px;
+}
+  .card {
+    width: 230px;
+    height: 230px;
+  }
+  .front-card img{
+    width: 230px;
+    height: 230px;
+  }
+
+  .section5 h3 {
+    font-size: 1.5rem;
+  }
+
+  .section5 p {
+    font-size: 1rem;
+  }
+
+  .leader {
+    width: 50%;
+    padding: 15px;
+  }
+
+  .client-detail {
+    margin-top: 20px;
+  }
+  .slide_image{
+    animation: 18s slideshow infinite linear;
+ 
+  }
+  .slide_images{
+    animation: 20s slideshow infinite linear;
+    animation-direction: reverse;
+  }
+  .section6 {
+    padding: 30px 20px;
+  }
+
+  .any-question h3 {
+    font-size: 1.8rem;
+  }
+
+  .contact {
+    margin: auto 5px;
+
+  }
+
+  .contact h4 {
+    font-size: 1rem;
+  }
+
+  .contact p,
+  a {
+    font-size: 10px;
+  }
+
+  /* footer */
+  .footer-img {
+    height: 1150px;
+  }
+
+  .social-media {
+    margin-top: 10px;
+  }
+
+
+  .bottom-details {
+    flex-wrap: wrap;
+    height: 12vh;
+  }
+
+  .bottom-left {
+    font-size: 0.9rem;
+  }
+
+  .bottom-right {
+    margin: 10px auto 0;
+  }
+
+  .bottom-right a {
+    font-size: 0.9rem;
+  }
+
+}
